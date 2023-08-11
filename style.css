@@ -1,4 +1,52 @@
+@font-face {
+    font-family: 'Haeparang';
+    src: url('./srcs/fonts/Yeongdeok\ Haeparang.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SnowCrab';
+    src: url('./srcs/fonts/Yeongdeok\ Snow\ Crab.ttf') format('truetype');
+}
+
 * {
 	margin: 0;
 	padding: 0;
+
+	text-align: center;
+	font-family: 'Haeparang';
+	font-size: 1rem;
+
+	background-color: lightsteelblue;
+}
+
+h2 {
+	font-size: 2rem;
+	font-family: SnowCrab;
+	padding: 3rem 0 1.5rem 0;
+
+	color: cornflowerblue;
+}
+
+#header {
+	align-items: center;
+}
+
+
+.topMenu * {
+	display: inline;
+}
+
+.topMenu a {
+	padding: 1.5rem;
+
+	font-weight: bold;
+	text-decoration: none;
+	color: gold;
+}
+
+.container {
+	margin: 1.5rem;
+}
+
+.footer {
+	
 }
